@@ -226,7 +226,7 @@ public class XAxisRenderer extends AxisRenderer {
                 if (mXAxis.yShowType == mXAxis.DATE) {
                     if (!TextUtils.isEmpty(label)) {
                         drawLabel(c, longToStringFromyyyyMMDD(Long.parseLong(label)), x, pos, anchor, labelRotationAngleDegrees);
-                        drawLabel(c, longToStringhhmmss(Long.parseLong(label)), x, pos + 20, anchor, labelRotationAngleDegrees);
+                        drawLabel(c, longToStringhhmmss(Long.parseLong(label)), x, pos + 25, anchor, labelRotationAngleDegrees);
                     }
                 } else if (mXAxis.yShowType == mXAxis.STRING) {
                     drawLabel(c, label, x, pos, anchor, labelRotationAngleDegrees);
